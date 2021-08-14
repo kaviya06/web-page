@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../asset/style.css" />
+
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        background-color: #111;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a class="active" href="/">Home</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+
+    <div class="contact1">
+      <h1>Contact Us</h1>
+      <!--Grid-->
+      <div class="grid2">
+        <div class="grid-item2" >
+          <div class="c-form">
+            <form action="">
+              <h3>For subscribe</h3>
+
+              <label for="fname">Name</label>
+              <input
+                type="text"
+                id="fname"
+                name="name"
+                placeholder="Your name.."
+              />
+
+              <label for="phone"><b>phone</b></label>
+              <input
+                type="text"
+                placeholder="Enter phone"
+                name="phone"
+                id="phone"
+                required
+              />
+
+              <label for="email"><b>Email</b></label>
+              <input
+                type="text"
+                placeholder="Enter Email"
+                name="email"
+                id="email"
+                required
+              />
+
+              <button type="submit" class="cbtn">submit</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="grid-item2">
+          <div class="map">
+            <h3>FIND US</h3>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15546.03072745283!2d80.228489!3d13.066979!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8c7eb46ae2a6d338!2sGSFC%20Ltd%20Chennai%2C%20Dharma%20Towers!5e0!3m2!1sen!2sin!4v1628927059452!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

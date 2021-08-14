@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="asset/style.css" />
+
+    <!-- JS -->
+    <script src="asset/script.js"></script>
+
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        background-color: #111;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a class="active" href="/">Home</a></li>
+        <li><a href="pages/contact.html">Contact</a></li>
+        <li><a href="pages/about.html">About</a></li>
+      </ul>
+    </div>
+    <div class="pk">
+      <div class="pk-items">
+        <h1>Technology Development</h1>
+        <p style="color: white; padding:10px 0;">
+          Objectively innovate empowered manufactured products where parallel
+          platforms
+        </p>
+
+        <button class="open-button" onclick="openForm()">Engage Now</button>
+        <div class="form-popup" id="myForm">
+          <form action="/" class="form-pk">
+            <h1>Leave a comment</h1>
+
+            <label for="email"><b>Email</b></label>
+            <input
+              type="text"
+              placeholder="Enter Email"
+              name="email"
+              required
+            />
+
+            <label for="Name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="Name" required />
+
+            <label for="subject">comment</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write comment.."
+              style="height: 100px"
+            ></textarea>
+
+            <button type="submit" class="btn">submit</button>
+            <button class="btn" onclick="closeForm()">close</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h3>Superior Collabration Visualize Quality</h3>
+      <p>
+        Proactively envisined multimedia based expertise and cross-media growth
+        strategies.Seamlessly visualize quality intellectual capital without
+        sperior collaboration and idea-sharing.Holistically pontificate
+        installed base portais after maintainable products
+      </p>
+      <!--Grid-->
+      <div class="grid">
+        <div class="grid-item" id="g-text">
+          <a href="#">
+            <img src="asset/img/01.jpg" alt="" />
+            <h4>Efficiently Unleash</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Temporibus fuga deserunt dicta modi, alias provident fugiat quod
+              cumque, voluptates sint maiores quasi facilis saepe culpa at
+              voluptate itaque numquam consequatur..
+            </p>
+          </a>
+        </div>
+        <div class="grid-item" id="g-text">
+          <a href="#">
+            <img src="asset/img/02.jpg" alt="" />
+            <h4>Completely synergize</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis,
+              sed placeat ea ratione deserunt maxime amet, at obcaecati alias
+              ullam ex repellendus sequi odio impedit, ipsam harum quo
+              cupiditate? Magni fugit laborum sit. Minus.
+            </p>
+          </a>
+        </div>
+        <div class="grid-item" id="g-text">
+          <a href="#">
+            <img src="asset/img/03.jpg" alt="" />
+            <h4>Dynamically Procarstinate</h4>
+            <p>
+              Professionally cultivate one to one customer service with robust
+              ideas.Completely synergize resource taking relationships via
+              premier niche markets.Dynamically innovate resource-leveling
+              customer service for state of the art customer service.
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container1">
+      <div class="grid1">
+        <div class="grid-item1" id="g-text1">
+          <h4>Dynamically Procarstinate</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            sequi soluta repellendus quos quo optio nam! Mollitia molestiae
+            cumque sequi sapiente illum assumenda impedit ullam! Laborum, rem
+            in?
+          </p>
+          <button class="button">procarstinate</button>
+        </div>
+        <div class="grid-item1" id="g-text1">
+          <h4>Completely Synergize</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            sequi soluta repellendus quos quo optio nam! Mollitia molestiae
+            cumque sequi sapiente illum assumenda impedit ullam! Laborum, rem
+            in?
+          </p>
+          <button class="button">synergize</button>
+        </div>
+        <div class="grid-item1" id="g-text1">
+          <h4>Efficiently unleash</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            sequi soluta repellendus quos quo optio nam! Mollitia molestiae
+            cumque sequi sapiente illum assumenda impedit ullam! Laborum, rem
+            in?
+          </p>
+          <button class="button">unleash</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+
+    <div class="about">
+      <a href="pages/about.html">About us</a>
+    </div>
+    <div class="contact">
+      <a href="pages/contact.html"> contact us</a>
+    </div>
+  </body>
+</html>
